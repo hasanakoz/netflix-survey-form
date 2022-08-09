@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
+
 *{margin: 0;}
 
 body{
     background-image: url("background_image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .main{
@@ -14,19 +18,35 @@ body{
     /* padding-top: 20px; */
     color: white;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 
+#title{
+    font-family: 'Bowlby One SC', cursive;
+}
 
+#description{
+    font-family: 'Sorts Mill Goudy', serif;
 }
 
 .form1{
     margin: auto;
-    width: 15%;
+    width: 25%;
     padding: 20px;
     background-color: rgba(12, 10, 10, 0.81);
     color: white;
     font-size: 15px;
     text-align: left;
+}
+
+#name, 
+#age, 
+#email, 
+#content, 
+#feedback{
+width: 90%;
+padding: 12px 10px;
+margin-top: 10px;
 }
 
 #flix{
